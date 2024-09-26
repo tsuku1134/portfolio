@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <title>healthapp</title>
+            <meta name="description" content="健康管理アプリ">
+            <!--- CSS-->
+            <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+            <link href="https://fonts.googleapis.com/css?family=philosopher" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet">
+        <script charset="utf-8" src="https://platform.twitter.com/js/timeline.e108540dddc96e4b707f5cf259a582d7.js"></script></head>
+    </head>
+    <body>
+        <div class="top wrapper">
+            <h2>気分状態管理アプリ</h2>
+            <h3>以下の 5つの各項目について、最近 2週間のあなたの状態に最も近いものに印をつけてください</h3>
+            <p>WHO-5 精神的健康状態表(1998 年版)</p>
+            <p>https://www.med.oita-u.ac.jp/oita-lcde/WHO-5%5B1%5D.pdf  引用 </p>
+        </div>
+        <div class="question-content wrapper">            <table>
+                <tr>
+                    <th>最近2週間, 私は・・</th>
+                    <th>いつも</th>
+                    <th>ほとんどいつも</th>
+                    <th>半分以上の期間を</th>
+                    <th>半分以下の期間を</th>
+                    <th>ほんのたまに</th>
+                    <th>まったくない</th>
+                </tr>
+                <tr>
+                    <th>Q1明るく楽しい気分で過ごした。</th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire1" value="5">
+                            <label for="survey1">5</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire1" value="4">
+                            <label for="survey1">4</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire1" value="3">
+                            <label for="survey1">3</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire1" value="2">
+                            <label for="survey1">2</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire1" value="1">
+                            <label for="survey1">1</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire1" value="0">
+                            <label for="survey1">0</label>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Q2落ち着いた、リラックスした気分で過ごした。</th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire2" value="5">
+                            <label for="survey2">5</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire2" value="4">
+                            <label for="survey2">4</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire2" value="3">
+                            <label for="survey2">3</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire2" value="2">
+                            <label for="survey2">2</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire2" value="1">
+                            <label for="survey2">1</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire2" value="0">
+                            <label for="survey2">0</label>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Q3意欲的で、活動的に過ごした。 </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire3" value="5">
+                            <label for="survey3">5</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire3" value="4">
+                            <label for="survey3">4</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire3" value="3">
+                            <label for="survey3">3</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire3" value="2">
+                            <label for="survey3">2</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire3" value="1">
+                            <label for="survey3">1</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire3" value="0">
+                            <label for="survey3">0</label>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Q4ぐっすりと休め、気持ちよく目覚めた</th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire4" value="5">
+                            <label for="survey4">5</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire4" value="4">
+                            <label for="survey4">4</label>
+                        </div>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire4" value="3">
+                            <label for="survey4">3</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire4" value="2">
+                            <label for="survey4">2</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire4" value="1">
+                            <label for="survey4">1</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire4" value="0">
+                            <label for="survey4">0</label>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Q5日常しえ活の中に、興味のあることがたくさんあった。</th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire5" value="5">
+                            <label for="survey5">5</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire5" value="4">
+                            <label for="survey5">4</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire5" value="3">
+                            <label for="survey5">3</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire5" value="2">
+                            <label for="survey5">2</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire5" value="1">
+                            <label for="survey5">1</label>
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <input type="radio"  name="questionnaire5" value="0">
+                            <label for="survey5">0</label>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+
+            <div class="result">
+                <button id="result-button" type="button">結果を見る</button>
+                <p id="total"></p>
+                <p id="comments"></p>
+            </div>
+      
+        </div>
+
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>

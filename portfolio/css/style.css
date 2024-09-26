@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* 共通部分
+-----------------------------------*/
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #51656f;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+li {
+    list-style: none;
+}
+/* header
+-----------------------------------*/
+header {
+    width: 100%;
+}
+
+
+.hero  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  color: #51656f;
+}
+
+.header-ul {
+    display: flex;
+}
+
+header li {
+    margin: 25px 0 0 25px;
+}
+
+header a {
+    color: #51656f;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #51656f;
+}
+
+/* top
+-----------------------------------*/
+.top {
+    margin-top: 50px;
+}
+
+.top img {
+    height: 500px;
+    width: 100%;
+}
+
+/* about
+-----------------------------------*/
+
+.about {
+    width: 100%;
+}
+
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 50px 0;
+    color: #51656f;
+}
+
+.about section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 300px;
+    color: #51656f;
+}
+
+/* service
+-----------------------------------*/
+
+.service {
+    padding: 30px;
+    margin-top: 70px;
+    background-color: #e6e6e6;
+    color: #51656f;
+    text-align: center;
+    width: 100%;
+}
+
+.service-item h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+.service h5 {
+    margin-top: 10px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+}
+
+.service h4 {
+    text-align: center;
+}
+
+/* Skill
+-----------------------------------*/
+
+.skill {
+   margin-top: 60px;
+   margin-bottom: 30px;
+   color: #51656f;
+   width: 100%;
+}
+
+
+.skill-content {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 200px;
+    text-align: center;
+}
+
+.icon img {
+    width: 150px;
+} 
+.skill h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* contact
+-----------------------------------*/
+
+.contact {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.contact-title {
+    text-align: center;
+    padding: 10px;
+    color: #51656f;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.form-group {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form-child {
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: #dcdcdc;
+    line-height: 40px;
+}
+
+.contact input {
+    width: 350px;
+    height: 40px;
+}
+
+.contact textarea {
+    width: 350px;
+    height: 150px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button input {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+}

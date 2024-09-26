@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/* 共通部分
+-----------------------------------*/
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* header
+-----------------------------------*/
+
+
+header {
+    background-color: white;
+    position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+.header-nav  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    background-color: #333;
+}
+
+
+
+.header-nav li {
+    font-size: 0.875rem;
+    margin: 10px 60px 10px 10px;
+}
+
+.header-nav a {
+    color: whitesmoke;
+}
+
+/* top
+-----------------------------------*/
+
+.top-aritcle {
+   display: flex;
+   justify-content: space-between;
+}
+
+.top-aritcle article  {
+    margin: 30px 25px;
+}
+
+.more {
+    text-align: center;
+}
+
+.more a {
+   color: #333;
+}
+
+/*  contents
+-----------------------------------*/
+
+.contents {
+    display: flex;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.contents a {
+    color: #333;
+}
+
+
+/*  contents-article
+-----------------------------------*/
+
+.contents-article {
+    padding-top: 100px;
+    margin: 100px 20px 20px 20px;
+    width: 60%;
+}
+
+
+.contents-article a {
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+}
+
+
+.contents-article p {
+    margin: 0 auto;
+}
+
+.contents-article img {
+    width: 100%;
+    height: 400px;
+   
+}
+
+
+/*  contents-aside
+-----------------------------------*/
+
+.contents-aside {
+    margin: 20px;
+    width: 30%;
+}
+
+
+
+/*  author
+-----------------------------------*/
+
+.author {
+    margin-bottom: 60px;
+}
+
+.author img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.author-img {
+    text-align: center;
+}
+
+.author h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+.author p {
+    margin-top: 5px;
+}
+
+/*  ranking
+-----------------------------------*/
+
+.ranking {
+    margin-bottom: 60px;
+}
+
+.ranking h2 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.ranking h4 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+/*  Achive
+-----------------------------------*/
+
+.achive-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.achive h4 {
+    padding: 10px;
+    display: block;
+    border-bottom: #333 solid;
+}
+
+.achive a {
+   color: #333;
+}
+
+/*  footer
+-----------------------------------*/
+
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: #f5f5f5;
+    position: relative;
+
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding-top: 50px;
+}
+
+footer section {
+    width: 33%;
+    margin-left: 40px;
+}
+
+/*  about
+-----------------------------------*/
+.about h3 {
+    margin-bottom: 30px;
+}
+
+.about-text {
+    padding-bottom: 30px;
+}
+
+.about a {
+    color: #333;
+}
+
+/*  menu
+-----------------------------------*/
+
+.menu h3 {
+    margin-bottom: 30px;
+}
+
+.menu p {
+    padding: 10px;
+    border-bottom: #333 1px solid;
+
+}
+
+.menu-new {
+    border-top: #333 1px solid;
+}
+
+
+.last-title {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}

@@ -1,0 +1,46 @@
+
+.wrapper {
+    width: 1100px;
+    margin: 50px;
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
+
+
+.question-content table {
+    border: 1px #333 solid;
+}
+
+
+.question-content tr {
+    border: 1px #333 solid;
+    padding: none;
+    margin: none;
+}
+
+.question-content th {
+    border: 1px #333 solid;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+.result {
+    text-align: center;
+}
+
+.result button {
+    border: 1px #333 solid;
+    border-radius: 5px;
+    background-color: rgb(203, 196, 186);
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.result button:hover {
+    background-color: blanchedalmond;
+}
